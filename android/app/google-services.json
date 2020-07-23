@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "980777656201",
+    "firebase_url": "https://clickbuterapp.firebaseio.com",
+    "project_id": "clickbuterapp",
+    "storage_bucket": "clickbuterapp.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:980777656201:android:73595efd9294540418cb58",
+        "android_client_info": {
+          "package_name": "com.example.clickbuster_app"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "980777656201-56krh51oiis68t9bmc99vrepl980814v.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.clickbuster_app",
+            "certificate_hash": "478d12d2c0c503d1b3fe02514bae4672ffd4226d"
+          }
+        },
+        {
+          "client_id": "980777656201-evr6ak4trhhbdnor4naoa4fqbmog2b80.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAgUykIoz_pkkkIR0fg0aLsmhK1LEv8WeE"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "980777656201-evr6ak4trhhbdnor4naoa4fqbmog2b80.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
