@@ -43,7 +43,7 @@ class _TEXTState extends State<TEXT> {
           setState(() {
             print("Second text field: ${myController.text}");
             result = myController.text;
-            var pass = 'abhi8';
+            var pass = 'pass1';
             result != pass ? _validate = true : _validate = false;
             //passcheck = check(result);
             //print(passcheck);

@@ -56,10 +56,7 @@ class ImageGridItem extends StatefulWidget {
   int index;
   int keys;
 
-  ImageGridItem(int index, int keys) {
-    this.index = index;
-    this.keys = keys;
-  }
+  ImageGridItem(this.index, this.keys);
   @override
   _ImageGridItemState createState() => _ImageGridItemState();
 }
@@ -74,7 +71,7 @@ class _ImageGridItemState extends State<ImageGridItem> {
     //checking requested index list to that to after scrolling above photos are visible
     if (!requestedIndexes.contains(widget.index)) {
       photosReference
-          .child("upload${widget.index}.jpg")
+          .child("download${widget.index}.jpg")
           .getData(maxsize)
           .then((data) {
         if (mounted) {

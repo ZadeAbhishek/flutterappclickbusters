@@ -51,9 +51,9 @@ class _GridState extends State<Grid> {
                         ),
                       ),
                       Text(
-                        "GRID 1",
+                        "Stage",
                         style: TextStyle(
-                          fontFamily: "shadow",
+                          fontFamily: "OpenSans",
                           fontSize: 35.0,
                           color: Colors.white,
                         ),
@@ -91,15 +91,15 @@ class _GridState extends State<Grid> {
                         child: Padding(
                           padding: const EdgeInsets.fromLTRB(0, 0, 0, 0),
                           child: Image.asset(
-                            "assets/DSC_0508.jpg",
+                            "assets/images/img21.jpg",
                             width: MediaQuery.of(context).size.width * 0.5,
                           ),
                         ),
                       ),
                       Text(
-                        "GRID 1",
+                        "Music",
                         style: TextStyle(
-                          fontFamily: "shadow",
+                          fontFamily: "OpenSans",
                           fontSize: 35.0,
                           color: Colors.white,
                         ),
@@ -135,15 +135,15 @@ class _GridState extends State<Grid> {
                         child: Padding(
                           padding: const EdgeInsets.fromLTRB(0, 0, 0, 0),
                           child: Image.asset(
-                            "assets/DSC_0508.jpg",
+                            "assets/images/img22.jpg",
                             width: MediaQuery.of(context).size.width * 0.5,
                           ),
                         ),
                       ),
                       Text(
-                        "GRID 1",
+                        "Live",
                         style: TextStyle(
-                          fontFamily: "shadow",
+                          fontFamily: "OpenSans",
                           fontSize: 35.0,
                           color: Colors.white,
                         ),
@@ -179,16 +179,16 @@ class _GridState extends State<Grid> {
                         child: Padding(
                           padding: const EdgeInsets.fromLTRB(0, 0, 0, 0),
                           child: Image.asset(
-                            "assets/DSC_0508.jpg",
+                            "assets/images/img23.jpg",
                             width: MediaQuery.of(context).size.width * 0.5,
                           ),
                         ),
                       ),
                       Text(
-                        "GRID 1",
+                        "Shiv\nJayanti",
                         style: TextStyle(
-                          fontFamily: "shadow",
-                          fontSize: 35.0,
+                          fontFamily: "OpenSans",
+                          fontSize: 30.0,
                           color: Colors.white,
                         ),
                       )
@@ -223,16 +223,16 @@ class _GridState extends State<Grid> {
                         child: Padding(
                           padding: const EdgeInsets.fromLTRB(0, 0, 0, 0),
                           child: Image.asset(
-                            "assets/DSC_0508.jpg",
+                            "assets/images/img24.jpg",
                             width: MediaQuery.of(context).size.width * 0.5,
                           ),
                         ),
                       ),
                       Text(
-                        "GRID 1",
+                        "Fashion\nshow",
                         style: TextStyle(
-                          fontFamily: "shadow",
-                          fontSize: 35.0,
+                          fontFamily: "OpenSans",
+                          fontSize: 25.0,
                           color: Colors.white,
                         ),
                       )
@@ -275,8 +275,8 @@ class _GridState extends State<Grid> {
                       Text(
                         "GRID 1",
                         style: TextStyle(
-                          fontFamily: "shadow",
-                          fontSize: 35.0,
+                          fontFamily: "OpenSans",
+                          fontSize: 25.0,
                           color: Colors.white,
                         ),
                       )
